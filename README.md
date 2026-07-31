@@ -1,0 +1,1 @@
+# genaiufpr-fastapi
