@@ -1,0 +1,1 @@
+"""Recicla Curitiba API package."""
