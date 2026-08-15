@@ -47,5 +47,4 @@ Ative no Google Cloud:
 - Maps JavaScript API
 
 ## Evidência de funcionamento
-![API rodando](/eviddencia_mapa.jpg)
-
+![API rodando](eviddencia_mapa.JPG)
