@@ -13,7 +13,7 @@ API em FastAPI para consultar os Ecopontos de Curitiba mais proximos a partir de
 ## Como executar localmente
 
 ```bash
-conda create --name recicla_api python=3.10
+conda create --name recicla_api python=3.14
 conda activate recicla_api
 pip install -r requirements.txt
 uvicorn app.main:app --reload
@@ -45,12 +45,3 @@ Ative no Google Cloud:
 - Geocoding API
 - Distance Matrix API ou, em producao, Routes API / Compute Route Matrix
 - Maps JavaScript API
-
-## Docker
-
-```bash
-docker build -t recicla-curitiba-api .
-docker run -p 8000:8000 recicla-curitiba-api
-```
-
-O passo a passo completo esta em [MATERIAL_PASSO_A_PASSO.md](MATERIAL_PASSO_A_PASSO.md).
